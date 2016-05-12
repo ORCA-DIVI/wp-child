@@ -14,7 +14,7 @@ add_action( "wp_default_styles", "my_wp_default_styles" );
 
 add_action( 'wp_enqueue_scripts', 'enqueue_child_theme_styles', 20 );
 function enqueue_child_theme_styles() {
-	wp_deregister_style( 'extra-style' );
+	wp_deregister_style( 'divi-style' );
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css', filemtime( get_template_directory() ) );
 
 	wp_enqueue_style( 'child-style', get_stylesheet_uri(), array( 'parent-style' ), filemtime( get_stylesheet_directory() . '/style.css' ) );
