@@ -37,7 +37,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 				}
 				?>
 
-                            <p id="footer-info"><?php printf( et_get_safe_localization( __( 'Designed by %1$s | Copyright © 2016 %2$s' ) ), '<a href="https://lodestream.com" target="_blank" title="LodeStreams LLC">LodeStreams LLC</a>', '<a href="https://www.company.com" target="_blank">Company</a>' ); ?></p>
+                                <p id="footer-info"><?php printf( et_get_safe_localization( __( 'Designed by %1$s | Copyright © 2016 %2$s' ) ), '<a href="https://lodestream.com" target="_blank" title="LodeStreams LLC">LodeStreams LLC</a>', '<a href="https://www.company.com" target="_blank">Company</a>' ); ?></p>
 			</div>    <!-- .container -->
 		</div>
 	</footer> <!-- #main-footer -->
